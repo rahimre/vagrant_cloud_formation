@@ -7,9 +7,9 @@ ssh-keygen -t rsa -b 2048
 ansible-playbook ssh-addkey.yml --ask-pass
  password -> vagrant
 
--install git on all machines
--install nginx on app machines
--install haproxy on lb machine and configure lb to forward http request to apps 
+-install git on all machines<br>
+-install nginx on app machines<br>
+-install haproxy on lb machine and configure lb to forward http request to apps<br> 
 
 ansible-playbook bootstrapSite.yml -i ~/inventory.ini
 
