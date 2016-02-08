@@ -7,6 +7,10 @@ ssh-keygen -t rsa -b 2048
 ansible-playbook ssh-addkey.yml --ask-pass  <br>
  password -> vagrant   <br>
 
+- Get the laml stack from git
+git clone https://github.com/rahimre/LampstackMinimal
+
+
 -install git on all machines<br>
 -install nginx on app machines<br>
 -install haproxy on lb machine and configure lb to forward http request to apps<br> 
