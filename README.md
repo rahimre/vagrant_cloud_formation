@@ -1,6 +1,6 @@
 -log on to the mgmt node
 
--create the rsa key
+-create the rsa key<br>
 ssh-keygen -t rsa -b 2048
 
 -distripute the public keys to other node
