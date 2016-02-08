@@ -3,9 +3,9 @@
 -create the rsa key<br>
 ssh-keygen -t rsa -b 2048
 
--distripute the public keys to other node
-ansible-playbook ssh-addkey.yml --ask-pass
- password -> vagrant
+-distripute the public keys to other node  <br>
+ansible-playbook ssh-addkey.yml --ask-pass  <br>
+ password -> vagrant   <br>
 
 -install git on all machines<br>
 -install nginx on app machines<br>
